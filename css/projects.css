@@ -50,6 +50,10 @@ body {
   border-bottom: solid 2px var(--border-color);
 }
 
+.projects > h2::after {
+  border-bottom: none;
+}
+
 .projects > *:last-child {
   padding-bottom: 80px;
 }
